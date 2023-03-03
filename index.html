@@ -5,16 +5,50 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+        <link rel="preconnect" href="https://fonts.bunny.net" crossorigin="anonymous">
+        <link href="https://fonts.bunny.net/css?family=kumbh-sans:400,700" rel="stylesheet" crossorigin="anonymous">
         <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/style.css">
-        <title>Document</title>
+        <title>Frontend Mentor | Profile card component</title>
     </head>
 
     <body class="body">
+        <div class="body__form">
+            <img class="body__form-top" src="./assets/images/bg-pattern-top.svg" alt="">
+            <img class="body__form-bottom" src="./assets/images/bg-pattern-bottom.svg" alt="">
+        </div>
         <main class="main">
+            <article class="profil">
+                <img class="profil__img" src="./assets/images/bg-pattern-card.svg" alt="Image background">
+                <div class="profil__container">
+                    <img class="profil__avatar" src="./assets/images/image-victor.jpg" alt="Avatar profil">
+                    <h1 class="profil__title">
+                        Victor Crest
+                        <span class="profil__age">26</span>
+                    </h1>
+                    <p class="profil__city">
+                        London
+                    </p>
+                    <div class="profil__line"></div>
+                    <ul class="profil__stats">
+                        <li class="profil__detail">
+                            <span class="profil__score">80K</span>
+                            Followers
+                        </li>
+                        <li class="profil__detail">
+                            <span class="profil__score">803K</span>
+                            Likes
+                        </li>
+                        <li class="profil__detail">
+                            <span class="profil__score">1.4K</span>
+                            Photos
+                        </li>
+                    </ul>
+                </div>
+            </article>
         </main>
         <footer class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+            Challenge by <a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
             Coded by <a href="https://costincadeau.fr" target="_blank" rel="noopener noreferrer">Costin Cadeau</a>.
         </footer>
     </body>
