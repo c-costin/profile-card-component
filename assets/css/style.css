@@ -1,0 +1,37 @@
+/* ==== GLOBAL VARIABLE ==== */
+:root {
+  /* Colors */
+
+  /* Font Family */
+  --ff-:;
+
+  /* Font Size */
+  --fs-default: ;
+}
+
+/* Style Body */
+.body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: var();
+  font-size: var();
+  color: var();
+  background: var();
+}
+
+/* Style Main */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
